@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash | Digital Entrepreneur & Forex Trader</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="yash.css">
+    <link rel="icon" href="images/favicon.jpg" type="image/png">
+</head>
+<body>
+    <!-- Music Player -->
+    <div class="music-player">
+        <audio id="bg-music" loop>
+            <source src="https://assets.mixkit.co/music/preview/mixkit-tech-house-vibes-130.mp3" type="audio/mpeg">
+        </audio>
+        <button id="play-btn" class="music-control"><i class="fas fa-play"></i></button>
+        <button id="mute-btn" class="music-control"><i class="fas fa-volume-up"></i></button>
+        <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="0.5">
+    </div>
+
+    <!-- Snow/Petals Container -->
+    <div id="snowflakes-container"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Yash<span>MasterDa</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ecommerce">eCommerce</a></li>
+                <li><a href="#trading">Trader</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate__animated animate__fadeInDown">Building <span>Digital Empires</span></h1>
+                <h2 class="animate__animated animate__fadeInDown animate__delay-1s">Entrepreneur & Forex Trader</h2>
+                <p class="animate__animated animate__fadeIn animate__delay-2s">Creating scalable eCommerce businesses and trading financial markets with disciplined strategies</p>
+                <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-3s">
+                    <a href="#ecommerce" class="btn btn-primary">My eCommerce</a>
+                    <a href="#trading" class="btn btn-secondary">Trading Approach</a>
+                </div>
+                <div class="stats animate__animated animate__fadeIn animate__delay-4s">
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Online Stores</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Years Trading</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>$50K+</h3>
+                        <p>Revenue Generated</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="dual-display">
+                    <div class="display-item ecommerce-display">
+                        <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="eCommerce Dashboard">
+                        <div class="display-overlay">
+                            <h3>eCommerce Ventures</h3>
+                        </div>
+                    </div>
+                    <div class="display-item trading-display">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Trading Charts">
+                        <div class="display-overlay">
+                            <h3>Trading</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- eCommerce Section -->
+    <section id="ecommerce" class="ecommerce">
+        <div class="container">
+            <h2 class="section-title">My <span>eCommerce</span> Ventures</h2>
+            <div class="ecommerce-grid">
+                <div class="ecommerce-card">
+                    <div class="card-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>D2C Brands</h3>
+                    <ul>
+                        <li>Product research & validation</li>
+                        <li>Brand positioning</li>
+                        <li>Customer acquisition</li>
+                        <li>Retention strategies</li>
+                    </ul>
+                </div>
+                <div class="ecommerce-card">
+                    <div class="card-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3>Dropshipping</h3>
+                    <ul>
+                        <li>Supplier management</li>
+                        <li>Automated fulfillment</li>
+                        <li>Scaling strategies</li>
+                        <li>Conversion optimization</li>
+                    </ul>
+                </div>
+                <div class="ecommerce-card">
+                    <div class="card-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3>Paid Advertising</h3>
+                    <ul>
+                        <li>Facebook/Instagram ads</li>
+                        <li>Google Ads</li>
+                        <li>TikTok marketing</li>
+                        <li>ROAS optimization</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="process">
+                <h3>My eCommerce Process</h3>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h4>Market Research</h4>
+                        <p>Identifying profitable niches and products</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h4>Store Setup</h4>
+                        <p>High-converting Shopify/WooCommerce stores</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h4>Traffic Generation</h4>
+                        <p>Paid and organic marketing strategies</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h4>Scaling</h4>
+                        <p>Optimizing and expanding profitable campaigns</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trading Section -->
+    <section id="trading" class="trading">
+        <div class="container">
+            <h2 class="section-title">Forex <span>Trading</span> Approach</h2>
+            <div class="trading-content">
+                <div class="trading-image">
+                    <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Trading Charts">
+                    <div class="trading-badge">
+                        <i class="fas fa-chart-line"></i>
+                        <span>5+ Years Experience</span>
+                    </div>
+                </div>
+                <div class="trading-info">
+                    <div class="trading-strategy">
+                        <h3>My Trading Strategy</h3>
+                        <p>Combining technical analysis with disciplined risk management to identify high-probability trading opportunities in the forex markets.</p>
+                        <ul>
+                            <li>Price action based trading</li>
+                            <li>Support & resistance levels</li>
+                            <li>Fibonacci retracements</li>
+                            <li>Risk-reward ratio minimum 1:2</li>
+                            <li>Daily loss limit of 2%</li>
+                        </ul>
+                    </div>
+                    <div class="trading-pairs">
+                        <h4>Preferred Currency Pairs:</h4>
+                        <div class="pairs-grid">
+                            <div class="pair">EUR/USD</div>
+                            <div class="pair">GBP/USD</div>
+                            <div class="pair">USD/JPY</div>
+                            <div class="pair">AUD/USD</div>
+                            <div class="pair">USD/CAD</div>
+                            <div class="pair">Gold</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trading-philosophy">
+                <h3>Trading Philosophy</h3>
+                <div class="philosophy-grid">
+                    <div class="philosophy-card">
+                        <i class="fas fa-brain"></i>
+                        <h4>Discipline</h4>
+                        <p>Strict adherence to trading rules and risk management principles.</p>
+                    </div>
+                    <div class="philosophy-card">
+                        <i class="fas fa-chart-pie"></i>
+                        <h4>Analysis</h4>
+                        <p>Combining technical and fundamental analysis for better decision making.</p>
+                    </div>
+                    <div class="philosophy-card">
+                        <i class="fas fa-balance-scale"></i>
+                        <h4>Patience</h4>
+                        <p>Waiting for high-probability setups rather than forcing trades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://scontent.fixr3-1.fna.fbcdn.net/v/t1.15752-9/462555027_579948644621418_7789572023500850763_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=Sc0JHHfPpD4Q7kNvwH_rGl2&_nc_oc=AdmHi9TULnMvT5Ve_MxcNkuRU0RCy2zN7QGHOumjSHn9Q4VMBC7ttcobXp0ZqkhQGjE&_nc_ad=z-m&_nc_cid=2034&_nc_zt=23&_nc_ht=scontent.fixr3-1.fna&oh=03_Q7cD2QGzcSXW_qbM4HxU0R6ozD2zIIkJv7d3ge9FQY8WtecmQQ&oe=6854EDED" alt="Yash MasterDa">
+                    <div class="skills">
+                        <h4>Skills & Expertise</h4>
+                        <div class="skill-tags">
+                            <span>eCommerce</span>
+                            <span>Forex Trading</span>
+                            <span>Digital Marketing</span>
+                            <span>Shopify</span>
+                            <span>Technical Analysis</span>
+                            <span>Branding</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I'm Yash MasterDa, a digital entrepreneur and forex trader with a passion for building online businesses and trading financial markets. With over 5 years of experience, I've helped numerous clients establish their online presence and trade profitably.</p>
+                    <p>My journey began when I discovered the power of eCommerce while in college. Since then, I've launched multiple successful online stores and developed a disciplined approach to trading forex markets.</p>
+                    <div class="mission">
+                        <h4>My Mission</h4>
+                        <p>To empower aspiring entrepreneurs and traders with the knowledge and tools they need to succeed in the digital world.</p>
+                    </div>
+                    <div class="tools">
+                        <h4>Tools I Use</h4>
+                        <div class="tools-grid">
+                            <div class="tool">
+                                <img src="https://cdn.worldvectorlogo.com/logos/shopify.svg" alt="Shopify">
+                                <span>Shopify</span>
+                            </div>
+                            <div class="tool">
+                                <img src="https://cdn.worldvectorlogo.com/logos/metatrader-4.svg" alt="MetaTrader">
+                                <span>MetaTrader</span>
+                            </div>
+                            <div class="tool">
+                                <img src="https://cdn.worldvectorlogo.com/logos/facebook-ads.svg" alt="Facebook Ads">
+                                <span>Facebook Ads</span>
+                            </div>
+                            <div class="tool">
+                                <img src="https://cdn.worldvectorlogo.com/logos/klaviyo-1.svg" alt="Klaviyo">
+                                <span>Klaviyo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>yash@allvy.in</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>+1 (1234) 123-1234</p>
+                    </div>
+                    <div class="social-links">
+                        <h4>Connect With Me</h4>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <select required>
+                        <option value="" disabled selected>Select Inquiry Type</option>
+                        <option value="ecommerce">eCommerce Consultation</option>
+                        <option value="trading">Trading Mentorship</option>
+                        <option value="collab">Collaboration</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home" class="logo">Yash<span>MasterDa</span></a>
+                    <p>Building digital assets & trading the markets</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#ecommerce">eCommerce</a></li>
+                        <li><a href="#trading">Forex Trading</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-cta">
+                    <h4>Start Your Journey</h4>
+                    <p>Ready to build your online business or trading career?</p>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Yash MasterDa. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="yash.js"></script>
+</body>
+</html>
